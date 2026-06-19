@@ -1,0 +1,62 @@
+{
+  "env_name": "MountainCarContinuous-v0",
+  "method": "PIRL_REWARD",
+  "n_envs": 6,
+  "training_total_time_sec": 5987.69,
+  "mean_time_per_seed_sec": 748.46,
+  "seed_times_sec": [
+    1018.23,
+    719.61,
+    815.23,
+    456.72,
+    452.97,
+    1349.74,
+    470.77,
+    704.42
+  ],
+  "timesteps_training": 70000,
+  "seeds_training": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "n_eval_episodes": 500,
+  "eval_freq": 2500,
+  "auc_mean_per_seed": [
+    48.1712,
+    64.1081,
+    48.0839,
+    80.5786,
+    79.5673,
+    -0.1652,
+    80.5304,
+    53.5267
+  ],
+  "auc_mean_mean": 56.8001,
+  "auc_mean_std": 25.2648,
+  "auc_mean_median": 58.8174,
+  "auc_median_per_seed": [
+    48.8621,
+    64.9053,
+    48.4321,
+    80.705,
+    80.1125,
+    -0.1518,
+    80.9227,
+    53.5509
+  ],
+  "auc_median_mean": 57.1673,
+  "auc_median_std": 25.3686,
+  "auc_median_median": 59.2281,
+  "auc_aggregated_mean": 56.8001,
+  "auc_aggregated_median": 59.2003,
+  "date": "2026-05-15T11:36:29.141329",
+  "sb3_version": "2.7.0",
+  "python_version": "3.13.1",
+  "regenerated": true
+}

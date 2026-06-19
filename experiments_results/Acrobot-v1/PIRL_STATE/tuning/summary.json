@@ -1,0 +1,26 @@
+{
+  "env_name": "Acrobot-v1",
+  "method": "PIRL_STATE",
+  "direction": "maximize",
+  "n_jobs": 10,
+  "n_envs": 6,
+  "tuning_total_time_sec": 849.15,
+  "mean_time_per_trial_sec": 42.46,
+  "n_trials_requested": 20,
+  "n_trials_completed": 20,
+  "n_trials_failed": 0,
+  "best_trial": 7,
+  "best_value": -101.92,
+  "sampler_seed": 42,
+  "seeds_tuning": [
+    1,
+    2,
+    3
+  ],
+  "timesteps_tuning": 15000,
+  "n_eval_episodes_tuning": 50,
+  "date": "2026-04-29T14:33:59.434120",
+  "optuna_version": "4.5.0",
+  "sb3_version": "2.7.0",
+  "python_version": "3.13.1"
+}

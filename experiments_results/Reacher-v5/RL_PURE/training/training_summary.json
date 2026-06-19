@@ -1,0 +1,61 @@
+{
+  "env_name": "Reacher-v5",
+  "method": "RL_PURE",
+  "n_envs": 6,
+  "training_total_time_sec": 1942.22,
+  "mean_time_per_seed_sec": 242.78,
+  "seed_times_sec": [
+    243.44,
+    240.37,
+    259.96,
+    246.13,
+    241.08,
+    231.91,
+    241.85,
+    236.95
+  ],
+  "timesteps_training": 120000,
+  "seeds_training": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "n_eval_episodes": 500,
+  "eval_freq": 2500,
+  "auc_mean_per_seed": [
+    -5.9345,
+    -6.0313,
+    -6.478,
+    -6.5444,
+    -6.5266,
+    -6.6912,
+    -6.2281,
+    -6.6412
+  ],
+  "auc_mean_mean": -6.3844,
+  "auc_mean_std": 0.266,
+  "auc_mean_median": -6.5023,
+  "auc_median_per_seed": [
+    -5.6415,
+    -5.7755,
+    -6.2528,
+    -6.1719,
+    -6.1362,
+    -6.4034,
+    -5.9655,
+    -6.2709
+  ],
+  "auc_median_mean": -6.0772,
+  "auc_median_std": 0.2451,
+  "auc_median_median": -6.154,
+  "auc_aggregated_mean": -6.3844,
+  "auc_aggregated_median": -6.0724,
+  "date": "2026-04-30T15:47:33.808219",
+  "sb3_version": "2.7.0",
+  "python_version": "3.13.1"
+}

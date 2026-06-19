@@ -1,0 +1,11 @@
+{
+  "gamma": 0.9090977676709048,
+  "gae_lambda": 0.9799834194627987,
+  "n_epochs": 30,
+  "ent_coef": 9.696819715656452e-05,
+  "clip_range": 0.4,
+  "n_steps": 256,
+  "batch_size": 128,
+  "learning_rate": 0.0004826670523743101,
+  "alpha": 1.0
+}

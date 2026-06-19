@@ -1,0 +1,61 @@
+{
+  "env_name": "Acrobot-v1",
+  "method": "PIRL_REWARD",
+  "n_envs": 6,
+  "training_total_time_sec": 936.78,
+  "mean_time_per_seed_sec": 117.1,
+  "seed_times_sec": [
+    127.2,
+    111.18,
+    68.77,
+    118.1,
+    120.9,
+    112.2,
+    157.4,
+    120.91
+  ],
+  "timesteps_training": 30000,
+  "seeds_training": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "n_eval_episodes": 500,
+  "eval_freq": 2500,
+  "auc_mean_per_seed": [
+    -152.8782,
+    -132.559,
+    -81.9549,
+    -143.4976,
+    -145.7763,
+    -135.9974,
+    -191.8023,
+    -148.4842
+  ],
+  "auc_mean_mean": -141.6187,
+  "auc_mean_std": 28.2546,
+  "auc_mean_median": -144.637,
+  "auc_median_per_seed": [
+    -133.6667,
+    -125.1875,
+    -74.9583,
+    -136.7292,
+    -134.0833,
+    -127.7917,
+    -135.5,
+    -128.875
+  ],
+  "auc_median_mean": -124.599,
+  "auc_median_std": 19.1415,
+  "auc_median_median": -131.2708,
+  "auc_aggregated_mean": -141.6187,
+  "auc_aggregated_median": -130.6875,
+  "date": "2026-04-29T14:13:11.451285",
+  "sb3_version": "2.7.0",
+  "python_version": "3.13.1"
+}

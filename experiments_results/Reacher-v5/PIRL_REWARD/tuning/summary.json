@@ -1,0 +1,26 @@
+{
+  "env_name": "Reacher-v5",
+  "method": "PIRL_REWARD",
+  "direction": "maximize",
+  "n_jobs": 10,
+  "n_envs": 6,
+  "tuning_total_time_sec": 3287.13,
+  "mean_time_per_trial_sec": 164.36,
+  "n_trials_requested": 20,
+  "n_trials_completed": 20,
+  "n_trials_failed": 0,
+  "best_trial": 1,
+  "best_value": -7.8011,
+  "sampler_seed": 42,
+  "seeds_tuning": [
+    1,
+    2,
+    3
+  ],
+  "timesteps_tuning": 50000,
+  "n_eval_episodes_tuning": 50,
+  "date": "2026-05-01T10:31:20.140479",
+  "optuna_version": "4.5.0",
+  "sb3_version": "2.7.0",
+  "python_version": "3.13.1"
+}

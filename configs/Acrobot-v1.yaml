@@ -1,0 +1,33 @@
+# ── Experiment ────────────────────────────────
+env_name:           "Acrobot-v1"
+n_envs:             6
+methods_available:  ["RL_PURE", "PIRL_REWARD", "PIRL_POLICY", "PIRL_STATE"]
+
+# ── Tuning ────────────────────────────────────
+tuning:
+  n_trials:         20
+  timesteps:        15_000
+  n_eval_episodes:  50
+  seeds:            [1, 2, 3]
+  sampler_seed:     42
+  eval_seed:        43
+  n_jobs:           10
+  direction:        "maximize"
+
+# ── Training ──────────────────────────────────
+training:
+  timesteps:        30_000
+  seeds:            [11, 12, 13, 14, 15, 16, 17, 18]
+  n_eval_episodes:  500
+  eval_freq:        2_500
+
+# ── Evaluation ────────────────────────────────
+evaluation:
+  n_eval_episodes:  1_000
+  eval_seed:        9999
+  deterministic:    true
+  n_video_episodes: 3
+  n_bootstrap:      10_000
+  score_min:        -500.0
+  score_max:        0.0
+

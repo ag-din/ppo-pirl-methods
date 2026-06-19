@@ -1,0 +1,26 @@
+{
+  "env_name": "MountainCarContinuous-v0",
+  "method": "RL_PURE",
+  "direction": "maximize",
+  "n_jobs": 10,
+  "n_envs": 6,
+  "tuning_total_time_sec": 6437.58,
+  "mean_time_per_trial_sec": 321.88,
+  "n_trials_requested": 20,
+  "n_trials_completed": 20,
+  "n_trials_failed": 0,
+  "best_trial": 15,
+  "best_value": 98.1556,
+  "sampler_seed": 42,
+  "seeds_tuning": [
+    1,
+    2,
+    3
+  ],
+  "timesteps_tuning": 30000,
+  "n_eval_episodes_tuning": 50,
+  "date": "2026-05-05T16:10:24.684787",
+  "optuna_version": "4.5.0",
+  "sb3_version": "2.7.0",
+  "python_version": "3.13.1"
+}

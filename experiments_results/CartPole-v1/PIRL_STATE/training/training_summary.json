@@ -1,0 +1,61 @@
+{
+  "env_name": "CartPole-v1",
+  "method": "PIRL_STATE",
+  "n_envs": 6,
+  "training_total_time_sec": 2454.54,
+  "mean_time_per_seed_sec": 306.82,
+  "seed_times_sec": [
+    282.27,
+    259.5,
+    297.34,
+    314.79,
+    286.95,
+    312.12,
+    306.15,
+    395.09
+  ],
+  "timesteps_training": 45000,
+  "seeds_training": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "n_eval_episodes": 500,
+  "eval_freq": 2500,
+  "auc_mean_per_seed": [
+    417.4178,
+    381.5877,
+    432.2972,
+    459.6332,
+    423.9525,
+    466.091,
+    459.7418,
+    457.0191
+  ],
+  "auc_mean_mean": 437.2175,
+  "auc_mean_std": 27.2086,
+  "auc_mean_median": 444.6581,
+  "auc_median_per_seed": [
+    417.8611,
+    380.9444,
+    434.1667,
+    459.8889,
+    431.2222,
+    466.8889,
+    460.9167,
+    460.3611
+  ],
+  "auc_median_mean": 439.0312,
+  "auc_median_std": 27.5044,
+  "auc_median_median": 447.0278,
+  "auc_aggregated_mean": 437.2175,
+  "auc_aggregated_median": 459.875,
+  "date": "2026-05-05T21:57:27.416775",
+  "sb3_version": "2.7.0",
+  "python_version": "3.13.1"
+}
